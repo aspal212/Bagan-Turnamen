@@ -3,37 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Sederhana</title>
+    <title>Website Edukatif</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
+    <!-- Header Modern -->
     <header>
-        <h1>Judul Website</h1>
-        <nav>
-            <a href="#">Beranda</a>
-            <a href="#">Tentang</a>
-            <a href="#">Layanan</a>
-            <a href="#">Kontak</a>
-        </nav>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fa fa-gamepad"></i>
+                <span>JUST PLAY, NOT THE GAME</span>
+            </div>
+            <nav>
+                <div class="menu-item"><a href="#">Beranda</a></div>
+                <div class="menu-item dropdown">
+                    <a href="#">Tentang <i class="fa fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Sejarah</a>
+                        <a href="#">Misi</a>
+                    </div>
+                </div>
+                <div class="menu-item dropdown">
+                    <a href="#">Layanan <i class="fa fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Permainan Edukatif</a>
+                        <a href="#">Tutorial</a>
+                    </div>
+                </div>
+                <div class="menu-item"><a href="#">Kontak</a></div>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>Selamat Datang</h2>
-            <p>Ini adalah website sederhana dengan latar putih. Anda bisa menambahkan konten sesuai kebutuhan.</p>
-        </section>
-
-        <section>
-            <h2>Layanan Kami</h2>
-            <p>Deskripsikan layanan atau produk di sini.</p>
-        </section>
-    </main>
-
-    <footer>
-        &copy; 2025 Nama Anda. Semua hak dilindungi.
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
